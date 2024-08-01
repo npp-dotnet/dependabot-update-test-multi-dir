@@ -1,3 +1,3 @@
-# dependabot-update-test
+# dependabot-update-test (multi-directory)
 
-Single .NET project with package manifest at the source tree root
+Multiple .NET projects with package manifests in nested directories

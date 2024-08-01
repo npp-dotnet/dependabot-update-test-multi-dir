@@ -18,7 +18,8 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.303'
-      - name: Run
+      - name: Test
+        working-directory: ./test/Hello.World.Tests
         run: |-
           dotnet restore
-          dotnet run
+          dotnet test
