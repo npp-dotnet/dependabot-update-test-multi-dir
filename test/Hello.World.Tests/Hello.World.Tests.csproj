@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Hello.World\Hello.World.csproj"/>
+    <ProjectReference Include="$(MSBuildThisFileDirectory)..\..\src\Hello.World\Hello.World.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
